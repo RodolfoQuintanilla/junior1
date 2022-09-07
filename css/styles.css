@@ -15,19 +15,84 @@
 
 body {
    font-family: 'Epilogue', sans-serif;
-   font-size: 18px;
+   font-size: 16px;
 }
 
 nav {
    display: flex;
+   justify-content: space-between;
+   padding: 40px 35px;
 }
-
-
 
 a {
    text-decoration: none;
+   color: var(--Gray);
+   margin-right: 4rem;
 }
 
+.nav__gene {
+   display: flex;
+}
+
+.nav__img {
+   margin-right: 4rem;
+}
+
+.nav__menu,
+a:hover {
+   color: var(--Black);
+   width: 50px;
+   height: 50px;
+   background-color: red;
+
+}
+
+.nav__log a:nth-child(2) {
+   border: 1px solid black;
+   padding: 13px 19px;
+   border-radius: 15px;
+}
+
+/* Menu */
+
+.contenido {
+   padding: 10rem;
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: space-evenly;
+}
+
+
+.contenido__img img {
+   width: 80%;
+   height: 50%;
+   object-fit: cover;
+}
+
+.contenido__texto h1 {
+   font-size: 5rem;
+   font-weight: 700;
+}
+
+.contenido__texto p {
+   color: var(--Gray);
+   font-size: 1rem;
+   margin-bottom: 90px;
+}
+
+.contenido__btn {
+   border: 1px solid black;
+   background-color: black;
+   color: var(--White);
+   padding: 22px 39px;
+   border-radius: 15px;
+
+}
+
+.contenido__btn:hover {
+   background-color: var(--White);
+   transition: .3s;
+}
 
 .attribution {
    font-size: 11px;
