@@ -27,10 +27,11 @@ nav {
 a {
    text-decoration: none;
    color: var(--Gray);
-   margin-right: 4rem;
+   margin-right: 5rem;
+
 }
 
-.nav__gene {
+.nav__menu {
    display: flex;
 }
 
@@ -38,14 +39,7 @@ a {
    margin-right: 4rem;
 }
 
-.nav__menu,
-a:hover {
-   color: var(--Black);
-   width: 50px;
-   height: 50px;
-   background-color: red;
 
-}
 
 .nav__log a:nth-child(2) {
    border: 1px solid black;
@@ -56,17 +50,35 @@ a:hover {
 /* Menu */
 
 .contenido {
-   padding: 10rem;
+   padding: 5rem 10rem;
    display: flex;
    flex-wrap: wrap-reverse;
    justify-content: space-evenly;
 }
 
+p {
+   font-size: 50px;
+}
 
-.contenido__img img {
-   width: 80%;
-   height: 50%;
+.container__caratula {
+
+   width: 600px;
+   height: 700px;
+}
+
+.container__caratula {
+   background-image: url(/images/image-hero-desktop.png);
+   background-size: cover;
    object-fit: cover;
+}
+
+
+.nav__gene {
+   display: flex;
+}
+
+.contenido__texto {
+   width: 600px;
 }
 
 .contenido__texto h1 {
@@ -76,7 +88,7 @@ a:hover {
 
 .contenido__texto p {
    color: var(--Gray);
-   font-size: 1rem;
+   font-size: 1.5rem;
    margin-bottom: 90px;
 }
 
@@ -89,16 +101,22 @@ a:hover {
 
 }
 
-.contenido__btn:hover {
+
+
+
+.contenido__img {
+   display: flex;
+   margin-top: 5rem;
+
+}
+
+.contenido__img img {
+   margin-right: 2rem;
+}
+
+
+
+/* .contenido__btn:hover {
    background-color: var(--White);
    transition: .3s;
-}
-
-.attribution {
-   font-size: 11px;
-   text-align: center;
-}
-
-.attribution a {
-   color: hsl(228, 45%, 44%);
-}
+} */
