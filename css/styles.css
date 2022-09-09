@@ -35,6 +35,10 @@ a {
    display: flex;
 }
 
+.nav__menu a:hover {
+   color: var(--Black);
+}
+
 .nav__img {
    margin-right: 4rem;
 }
@@ -70,6 +74,7 @@ p {
    background-image: url(/images/image-hero-desktop.png);
    background-size: cover;
    object-fit: cover;
+
 }
 
 
@@ -101,9 +106,6 @@ p {
 
 }
 
-
-
-
 .contenido__img {
    display: flex;
    margin-top: 5rem;
@@ -112,6 +114,20 @@ p {
 
 .contenido__img img {
    margin-right: 2rem;
+}
+
+.xxx {
+
+   color: red;
+   background-image: url(/images/icon-arrow-down.svg);
+   background-repeat: no-repeat;
+}
+
+.aaa {
+
+   color: rgb(0, 255, 34);
+   background-image: url(/images/icon-arrow-up.svg);
+   background-repeat: no-repeat;
 }
 
 
