@@ -1,4 +1,5 @@
 const flechas = document.querySelector("#menu");
+const recuadro = document.querySelector("#merr")
 let variable = false;
 
 inicio();
@@ -20,11 +21,11 @@ function entrar(x) {
 function res(x) {
    if (x === false) {
       console.log('entrar');
-      flechas.classList.add('xxx')
+      recuadro.classList.add('merr')
       return
    } else {
       console.log(' salir');
-
+      recuadro.classList.remove('merr')
       return
    }
 }
